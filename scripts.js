@@ -1,14 +1,8 @@
-let beolvasas = 0;
 
-$('#noveles').click(function () {
-     beolvasas++;
-    $('#szamlalo').text(beolvasas);
+$('#gomb').click(function () {
+    let beolvasas = $('#szovegbevitel').val();
+    $("#felsorolas:last-of-type").append("<li>" + beolvasas + "</li>");
     
 });
 
 
-$('#csokkentes').click(function () {
-    beolvasas--;
-   $('#szamlalo').text(beolvasas);
-   
-});
