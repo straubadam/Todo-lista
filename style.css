@@ -1,0 +1,14 @@
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+button {
+    background-color: whitesmoke;
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    
+}
+
+
